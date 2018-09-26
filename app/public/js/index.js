@@ -1,7 +1,4 @@
 $(document).ready(function() {
-
-
-
 	$.getJSON('https://json.geoiplookup.io/', function(data) {
   		 var currentState = JSON.stringify(data.region, null, 2);
   		 //console.log("Current state var: " + currentState);
@@ -12,7 +9,4 @@ $(document).ready(function() {
 });
 
 	
-
-
-
 });
